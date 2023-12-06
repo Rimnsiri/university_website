@@ -1,0 +1,34 @@
+.calendrier {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .mois {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  td:not(:empty) {
+    background-color: #f2f2f2;
+  }
+  
+  td:hover:not(:empty) {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
